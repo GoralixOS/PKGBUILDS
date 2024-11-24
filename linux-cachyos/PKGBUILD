@@ -98,7 +98,7 @@ _hugepage=${_hugepage-always}
 _processor_opt=${_processor_opt-}
 
 # This does automatically detect your supported CPU and optimizes for it
-_use_auto_optimization=${_use_auto_optimization-y}
+_use_auto_optimization=${_use_auto_optimization-n}
 
 # Clang LTO mode, only available with the "llvm" compiler - options are "none", "full" or "thin".
 # ATTENTION - one of three predefined values should be selected!
